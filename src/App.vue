@@ -6,10 +6,6 @@
     <div class="main">
       <router-view/>
     </div>
-<<<<<<< HEAD
-=======
-
->>>>>>> 7cb465fadbca01a223e9ccf400cb302ace59ae73
   </div>
 </template>
 

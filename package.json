@@ -5,22 +5,14 @@
   "author": "chenglin <837460387@qq.com>",
   "private": true,
   "scripts": {
-<<<<<<< HEAD
     "dev": "webpack-dev-server --inline --progress --colors --config build/webpack.dev.conf.js --open",
-=======
-    "dev": "webpack-dev-server --inline --progress --colors --config build/webpack.dev.conf.js",
->>>>>>> 7cb465fadbca01a223e9ccf400cb302ace59ae73
     "start": "npm run dev",
     "lint": "eslint --ext .js,.vue src",
     "build": "node build/build.js"
   },
   "dependencies": {
     "axios": "^0.18.0",
-<<<<<<< HEAD
     "element-ui": "^2.12.0",
-=======
-    "element-ui": "^2.3.7",
->>>>>>> 7cb465fadbca01a223e9ccf400cb302ace59ae73
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
   },

@@ -151,9 +151,9 @@ export default {
         }
       }
       if (isHave) {
-        let arr = this.tabData.filter(o => o.goodsId === goods.goodsId);
-        ++arr[0].count;
-        this.tabData = this.tabData;  
+        let arr = this.tabData.filter(o => o.goodsId === goods.goodsId)
+        ++arr[0].count
+        this.tabData = this.tabData
         // this.tabData.filter(o => o.goodsId === goods.goodsId)[0].count++
       } else {
         // let newGoods = goods
